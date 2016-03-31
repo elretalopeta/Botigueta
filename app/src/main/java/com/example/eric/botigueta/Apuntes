@@ -1,0 +1,70 @@
+        /*
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
+        */
+        /*
+        Metodo 1
+       ArrayAdapter<String> stringArrayAdapter=
+                new ArrayAdapter<String>(this,
+                        android.R.layout.simple_spinner_dropdown_item,
+                        getResources().getStringArray(R.array.pruebas));
+        Spinner spinner =
+                (Spinner)  findViewById(R.id.spinner);
+        spinner.setAdapter(stringArrayAdapter);
+        */
+        /*
+        Metodo 2
+        //ArrayAdapter para conectar el Spinner a nuestros recursos strings.xml
+        ArrayAdapter<CharSequence> adapter;
+
+        //Obtener instancia del GameSpinner
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+
+        //Asignas el origen de datos desde los recursos
+        adapter = ArrayAdapter.createFromResource(this, R.array.pruebas,
+                android.R.layout.simple_spinner_item);
+
+        //Asignas el layout a inflar para cada elemento
+        //al momento de desplegar la lista
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        //Seteas el adaptador
+        spinner.setAdapter(adapter);
+        */
+
+            /*
+            rowView.setOnClickListener(MainActivity.this);
+            ImageView imageView1 = (ImageView) rowView.findViewById(R.id.img);
+            imageView1.setImageURI(info.img);
+            */
+/*
+            Producto info = infos.get(position);
+            LayoutInflater inflater =
+                    (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+            View rowView = inflater.inflate(R.layout.activity_list, parent, false);
+            TextView text1 = (TextView) rowView.findViewById(R.id.producto_carrito);
+            TextView text2 = (TextView) rowView.findViewById(R.id.cantidad);
+            ImageView img = (ImageView) rowView.findViewById(R.id.imagen_producto);
+            text1.setText(info.name);
+            text2.setText(String.valueOf(info.cantidad) + " x " + String.valueOf(info.price));
+            img.setImageResource(getResources().getIdentifier(info.getImg(), "drawable", MainActivity.this.getPackageName()));
+
+            vistaProducto viewInfo = new vistaProducto(convertView);
+            convertView.setTag(viewInfo);
+            borrar = (Button) findViewById(R.id.borrar);
+            //borrar.setTag(info);
+            //borrar.setOnClickListener(this);
+            //rowView.setOnClickListener(MainActivity.this);
+            return rowView;
+            }
+*/

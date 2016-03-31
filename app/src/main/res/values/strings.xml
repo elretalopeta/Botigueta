@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Botigueta</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="pruebas">
+        <item>1:Cireres:Cireres vermelles:1.56:img000.jpg</item>
+        <item>2:Plàtan:Plàtan boníssim:0.15:img001.jpg</item>
+        <item> 3:Pastís:Pastís d\'aniversari:12.99:img002.jpg</item>
+        <item>4:Barra de pa:De la nostra fleca:0.42:img003.jpg</item>
+        <item> 5:Pa dolç:Dolç i bo:0.65:img004.jpg</item>
+        <item>6:Croissant:Fet al moment:0.85:img005.jpg</item>
+        <item> 7:Bistec de vedella 1/2Kg:Alta qualitat:14.50:img006.jpg</item>
+        <item>8:Panet de llet:Ideal per als nens:0.15:img007.jpg</item>
+        <item>9:Dotzena d\'ous:Gallines de proximitat:1.89:img008.jpg</item>
+        <item> 10:Farina:Farina. Fina, fina:0.99:img009.jpg</item>
+        <item>11:Raïm:Boníssim i sa:1.24:img010.jpg</item>
+        <item>12:Pernil cuït:Suau, baix en sal:9.99:img011.jpg</item>
+        <item>13:Piruleta:Sabor maduixa:0.10:img012.jpg</item>
+        <item>14:Poma:Poma deliciosa:0.23:img013.jpg</item>
+        <item>15:Pera:Pera ben bona:0.24:img014.jpg</item>
+        <item>16:Pinya:Ideal amanides fresques:1.50:img015.jpg</item>
+        <item>17:Maduixes:Vermelles i boníssimes:1.25:img016.jpg</item>
+        <item>18:Sucre:Per endolcir-te la vida:0.99:img017.jpg</item>
+        <item>19:Síndria:Estupenda i sana:3.65:img018.jpg</item>
+        <item>20:Llet:Semidesnatada:0.75:img019.jpg</item>
+        <item>21:Cafè:Mólt d\'alta qualitat:0.76:img020.jpg</item>
+        <item>22:Àpat preparat:Si no pots cuinar:5.85:img021.jpg</item>
+        <item>23:Pizza:De 4 formatges:3.55:img022.jpg</item>
+        <item>24:Salmó:De la canya al sarronet:4.56:img023.jpg</item>
+        <item>25:Pésols:Ideals com a acompanyament:0.55:img024.jpg</item>
+        <item>26:Bolets:Dónen gust a tots els dinars:0.42:img025.jpg</item>
+        <item>27:Ceba:Dolça que no fa plorar:0.35:img026.jpg</item>
+        <item>28:Formatge:Semisec, boníssim:2.30:img027.jpg</item>
+        <item>29:Pastanaga:Ideal amanides:0.21:img028.jpg</item>
+        </string-array>
+
+</resources>
+
+
+
+
