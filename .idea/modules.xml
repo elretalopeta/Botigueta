@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Botigueta-master.iml" filepath="$PROJECT_DIR$/Botigueta-master.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/Botigueta.iml" filepath="$PROJECT_DIR$/Botigueta.iml" />
->>>>>>> 0e59620c9005c4924d4ce8be23af06db5433d2e4
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

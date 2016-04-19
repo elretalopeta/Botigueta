@@ -99,8 +99,8 @@ public class MainActivity extends AppCompatActivity {
             }
         } else { //no existe el producto
 
-            carrito.add(producto.setCantidad(1)); //añado el objeto al ArrayList de objetos para la lista
-            //carrito.get(producto.cantidad).setCantidad(1); // añado +1 a la cantidad de ese objeto
+            carrito.add(producto); //añado el objeto al ArrayList de objetos para la lista
+            carrito.get(producto.cantidad).setCantidad(1); // añado +1 a la cantidad de ese objeto
             //carrito.get(producto);
 
             lista.setAdapter(new CarritoAdapter(this, carrito)); // actulizo el adapter de la listacarrito
