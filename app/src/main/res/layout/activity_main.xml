@@ -62,6 +62,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,6 +71,26 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/añadir"
+        android:layout_alignBottom="@+id/spinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/spinner" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ver"
+        android:layout_above="@+id/listView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:background="@drawable/add198" />
+>>>>>>> 0e59620c9005c4924d4ce8be23af06db5433d2e4
 
 
 </RelativeLayout>

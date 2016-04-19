@@ -13,6 +13,7 @@
             android:layout_height="match_parent"
             android:id="@+id/plantilla_imagen"
             android:layout_weight="0.2" />
+
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="wrap_content"
@@ -41,8 +42,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/plantilla_eliminar"
             android:src="@drawable/delete96" />
-
-
 
     </LinearLayout>
 

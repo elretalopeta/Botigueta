@@ -15,7 +15,11 @@ public class Producto {
         this.precio=precio;
         this.cantidad=cantidad;
     }
-    
+
+    public Integer getCantidad() {
+        return cantidad;
+    }
+
     public void delCantidad(Integer cantidad){
         this.cantidad=this.cantidad-cantidad;
     }
@@ -23,8 +27,25 @@ public class Producto {
     public void setCantidad(Integer cantidad) {
         this.cantidad = this.cantidad+cantidad;
     }
-    public String getImg() {
-        return img;
+
+
+    public String getNombre() {
+        return nombre;
     }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(Double precio) {
+        this.precio = precio;
+    }
+
+
+
 
 }

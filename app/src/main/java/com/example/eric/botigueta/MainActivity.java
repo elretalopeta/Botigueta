@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                suma();
-               //ver();
             }
         });
     }
@@ -88,16 +87,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void ver(){
-        suma();
-        Producto producto = productos.get(opciones.getSelectedItemPosition());
-        //ver.setImageURI(Uri.parse(producto.img));
-        //ver.setImageDrawable("img000.jpg");
-        Log.i("Tag:", producto.getImg());
-        //ver.setImageResource(getResources().getIdentifier(producto.getImg(), "drawable", MainActivity.this.getPackageName()));
-        //Drawable icon = ResourcesCompat.getDrawable(getResources(), img000.jpg, null);
-    }
-
     //Funcion suma
     public void suma() {
         Producto producto = productos.get(opciones.getSelectedItemPosition()); // selecciono el producto del spineer
@@ -109,10 +98,11 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         } else { //no existe el producto
-            producto.setCantidad(1);
-            carrito.add(producto); //añado el objeto al ArrayList de objetos para la lista
+
+            carrito.add(producto.setCantidad(1)); //añado el objeto al ArrayList de objetos para la lista
             //carrito.get(producto.cantidad).setCantidad(1); // añado +1 a la cantidad de ese objeto
             //carrito.get(producto);
+
             lista.setAdapter(new CarritoAdapter(this, carrito)); // actulizo el adapter de la listacarrito
         }
 
@@ -239,8 +229,7 @@ public class MainActivity extends AppCompatActivity {
             //Añado los datos a los elementos
             text1.setText(producto.nombre);
             text2.setText(String.valueOf(producto.cantidad) + " x " + String.valueOf(producto.precio));
-
-           img.setImageResource(getResources().getIdentifier(producto.getImg(), "drawable", MainActivity.this.getPackageName()));
+            img.setImageResource(getResources().getIdentifier(producto.getImg(), "drawable", MainActivity.this.getPackageName()));
 
             //Log.i("Imagen Producto:", String.valueOf(img));
 
